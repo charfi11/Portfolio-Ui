@@ -1,0 +1,143 @@
+.projets {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.blockprojets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.titleproj h1 {
+    transition: 500ms;
+    font-size: 2em;
+}
+
+.blockprojets {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.categories h3 {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.categories h3:hover {
+    transform: rotate(3deg);
+    text-shadow: -2px 3px 0px #F2F4FF;
+    transition: 200ms;
+}
+
+.cardprojets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    width: 20em;
+    height: 25em;
+    overflow: hidden;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0,0.2);
+    border-radius: 1.3em;
+    cursor: pointer;
+    transition: 300ms;
+    margin-left: 3%;
+    color: whitesmoke;
+}
+
+.cardprojets:hover {
+    rotate: 1.5deg;
+    border: solid 5px #F2F4FF;
+}
+
+.cardprojets:hover .cardtitle{
+    transition: 300ms;
+    background-color:rgba(24, 24, 24, 0.5);
+}
+
+.cardprojetsnope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+}
+
+.cardimgnope {
+    width: 20%;
+    margin-top: 5%;
+}
+
+.titlenope {
+    font-size: 2.5em;
+    margin-bottom: 5%;
+}
+
+.cardimgnope img {
+    width: 70%;
+}
+
+.cardtitle {
+    text-align: left;
+    width: 20em;
+    height: 25em;
+    position: absolute;
+    color: black;
+    background-color:rgba(24, 24, 24, 0.7);
+    border-radius: 1.3em;
+}
+
+.cardtitlecontent {
+    color: #F2F4FF;
+    margin-top: 15em;
+    padding-left: 2%;
+    
+}
+
+.cardtitle span {
+    margin-bottom: 2%;
+}
+
+.nop {
+    background-color: #1C3144;
+    color: whitesmoke;
+    padding: 3%;
+    border-radius: 1.5em;
+}
+
+.cardimg {
+    width: 20em;
+    height: 100%;
+    display: flex;
+}
+
+.cardimg img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.allp {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+}

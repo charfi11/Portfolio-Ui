@@ -1,0 +1,136 @@
+#appendmodal {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 2000;
+    top: 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal {
+    background-color: #1C3144;
+    color: whitesmoke;
+    width: 60%;
+    height: 100vh;
+    box-shadow: -1px 1px 9px 1px rgba(0,0,0,0.08);
+    animation-name: slideInRight;
+    animation-duration: 800ms;
+    overflow: hidden;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-left: solid 10px #F2F4FF;
+}
+
+.modalcontent {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.modaltitle {
+    margin-bottom: 6%;
+    font-size: 1.5em;
+}
+
+.modalbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalmiddle {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    word-wrap: break-word;
+}
+
+.modaldesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.modaldesc small {
+    margin-bottom: 2%;
+}
+
+.modaldesc p {
+    margin-bottom: 3%;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+}
+
+.intcolors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intdescmodal {
+    margin-bottom: 3%;
+}
+
+.modalimg img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 2%;
+    transition: 200ms;
+}
+
+#cross {
+    cursor: pointer;
+}
+
+#cross:hover {
+    transition: 200ms;
+    color: #b33f62;
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+}

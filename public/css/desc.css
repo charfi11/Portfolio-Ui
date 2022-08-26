@@ -1,0 +1,84 @@
+.description {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.titledesc {
+    margin-top: 2%;
+}
+
+.titledesc h1 {
+    transition: 500ms;
+    font-size: 2em;
+}
+
+.titledesc h2 {
+    text-align: right;
+}
+
+.parcour {
+    margin-top: 5%;
+    width: 80%;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.parcour h2, .perso h2 {
+    margin-bottom: 1%;
+    font-size: 1.7em;
+}
+
+.perso {
+    margin-top: 5%;
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.skills {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+}
+
+.skillstitle {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'garetbold';
+}
+
+.skills h3 {
+    font-family: 'garetbold';
+    font-size: 1.5em;
+}
+
+.blockskills {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.blocklists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imglists {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.imglists img {
+    width: 100%;
+}
